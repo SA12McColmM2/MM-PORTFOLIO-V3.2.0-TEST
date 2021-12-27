@@ -46,7 +46,8 @@ $stmt->close();
 </head>
 <body>
 <?php 
-  include_once 'header.php'
+  include_once 'header.php';
+  var_dump($_SESSION);
   ?>
 
 <div class="content">

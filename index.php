@@ -25,7 +25,8 @@ session_start();
 <body>
 <header>
   <?php 
-  include_once 'header.php'
+  include_once 'header.php';
+  var_dump($_SESSION);
   ?>
     <!-- HERO SECTION -->    
     <div class="container-fluid hero">
